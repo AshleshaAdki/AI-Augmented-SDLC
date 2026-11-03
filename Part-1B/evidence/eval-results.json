@@ -1,0 +1,481 @@
+{
+  "reference_time": "2026-11-03T00:00:00+00:00",
+  "total": 21,
+  "passed": 21,
+  "score_percent": 100.0,
+  "threshold_percent": 90.0,
+  "status": "PASS",
+  "backend": "llm",
+  "model": "openai/gpt-oss-120b",
+  "requirement_coverage": [
+    "INV-1",
+    "INV-2",
+    "INV-3",
+    "INV-4",
+    "INV-5",
+    "REM-1",
+    "REM-2",
+    "REM-3",
+    "REM-4",
+    "REM-5",
+    "REM-6",
+    "REM-7",
+    "REM-8",
+    "SAFE-1",
+    "SAFE-2",
+    "SAFE-3"
+  ],
+  "cases": [
+    {
+      "id": 1,
+      "requirement_ids": [
+        "REM-1",
+        "REM-3",
+        "REM-4",
+        "REM-8",
+        "INV-2",
+        "INV-4",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Call Mom",
+        "due_date": "2026-11-04T18:00:00+00:00",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 2,
+      "requirement_ids": [
+        "REM-1",
+        "REM-2",
+        "REM-4",
+        "REM-8",
+        "INV-2",
+        "INV-4",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Doctor appointment",
+        "due_date": "2026-11-10T10:00:00+00:00",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 3,
+      "requirement_ids": [
+        "REM-1",
+        "REM-4",
+        "REM-8",
+        "INV-2",
+        "INV-4",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Submit the assignment",
+        "due_date": "2026-11-03T17:00:00Z",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 4,
+      "requirement_ids": [
+        "REM-1",
+        "REM-5",
+        "REM-8",
+        "INV-2"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Buy groceries",
+        "due_date": "2026-11-07T09:00:00+00:00",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "weekly",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 5,
+      "requirement_ids": [
+        "REM-1",
+        "REM-4",
+        "REM-5",
+        "REM-8",
+        "INV-2",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Standup meeting",
+        "due_date": "2026-11-03T09:30:00Z",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "daily",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 6,
+      "requirement_ids": [
+        "REM-7",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": null,
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "What should the reminder be about, and when?"
+      }
+    },
+    {
+      "id": 7,
+      "requirement_ids": [
+        "REM-7",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": null,
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "What should the reminder be about, and when?"
+      }
+    },
+    {
+      "id": 8,
+      "requirement_ids": [
+        "REM-1",
+        "REM-7",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Pay electricity bill",
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "When should I remind you about paying the electricity bill?"
+      }
+    },
+    {
+      "id": 9,
+      "requirement_ids": [
+        "REM-1",
+        "REM-4",
+        "REM-8",
+        "INV-2",
+        "INV-4",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Meeting",
+        "due_date": "2026-11-03T15:00:00Z",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 10,
+      "requirement_ids": [
+        "REM-1",
+        "REM-3",
+        "REM-4",
+        "REM-8",
+        "INV-2",
+        "INV-4",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Team dinner",
+        "due_date": "2026-11-04T20:00:00+00:00",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 11,
+      "requirement_ids": [
+        "REM-7",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": null,
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "What should I remind you about, and when?"
+      }
+    },
+    {
+      "id": 12,
+      "requirement_ids": [
+        "SAFE-1",
+        "SAFE-2",
+        "SAFE-3",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": null,
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "I can only parse safe reminder requests. What reminder would you like?"
+      }
+    },
+    {
+      "id": 13,
+      "requirement_ids": [
+        "REM-1",
+        "REM-2",
+        "REM-8",
+        "INV-2",
+        "INV-4",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Renew car insurance",
+        "due_date": "2026-12-01",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 14,
+      "requirement_ids": [
+        "REM-1",
+        "REM-4",
+        "REM-5",
+        "REM-8",
+        "INV-2",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Gym workout",
+        "due_date": "2026-11-03T07:00:00Z",
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "daily",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    },
+    {
+      "id": 15,
+      "requirement_ids": [
+        "REM-1",
+        "REM-7",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Call John",
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "When should I schedule the reminder for \"Call John\"?"
+      }
+    },
+    {
+      "id": 16,
+      "requirement_ids": [
+        "SAFE-1",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": null,
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "I can only parse safe reminder requests. What reminder would you like?"
+      }
+    },
+    {
+      "id": 17,
+      "requirement_ids": [
+        "SAFE-2",
+        "SAFE-3",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": null,
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "I can only parse safe reminder requests. What reminder would you like?"
+      }
+    },
+    {
+      "id": 18,
+      "requirement_ids": [
+        "SAFE-3",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": null,
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "I can only parse safe reminder requests. What reminder would you like?"
+      }
+    },
+    {
+      "id": 19,
+      "requirement_ids": [
+        "REM-1",
+        "REM-7",
+        "REM-8",
+        "INV-1",
+        "INV-3"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Submit the form",
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "On which day in December 2026 would you like to submit the form?"
+      }
+    },
+    {
+      "id": 20,
+      "requirement_ids": [
+        "REM-2",
+        "REM-7",
+        "REM-8",
+        "INV-1",
+        "INV-3",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Renew the license",
+        "due_date": null,
+        "tags": [],
+        "priority": "medium",
+        "recurrence": "none",
+        "needs_clarification": true,
+        "clarification_question": "The date 2026-02-30 is invalid. What is the correct due date for renewing the license?"
+      }
+    },
+    {
+      "id": 21,
+      "requirement_ids": [
+        "REM-2",
+        "REM-6",
+        "REM-8",
+        "INV-2",
+        "INV-4",
+        "INV-5"
+      ],
+      "status": "PASS",
+      "errors": [],
+      "output": {
+        "title": "Finish report",
+        "due_date": "2026-12-01",
+        "tags": [
+          "work"
+        ],
+        "priority": "high",
+        "recurrence": "none",
+        "needs_clarification": false,
+        "clarification_question": null
+      }
+    }
+  ]
+}
